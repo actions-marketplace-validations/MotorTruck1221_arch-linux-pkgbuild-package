@@ -46,7 +46,7 @@ inputs:
 
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/motortruck1221/archlinux-package-action:main'
+  image: 'docker://ghcr.io/motortruck1221/arch-linux-pkgbuild-package:main'
   args:
     - ${{ inputs.path }}
     - ${{ inputs.pkgver }}
