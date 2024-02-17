@@ -6,6 +6,7 @@ on:
       - "main"
     tags:
       - 'v*.*.*'
+  workflow_dispatch:
   pull_request:
     branches:
       - "main"
@@ -108,10 +109,10 @@ jobs:
         run: |
           REPOSITORY_OWNER=${{ github.repository_owner }}
           REPOSITORY_OWNER=$(echo $REPOSITORY_OWNER | tr '[:upper:]' '[:lower:]')
-          
+
           REPOSITORY_NAME=${{ github.event.repository.name }}
           REPOSITORY_NAME=$(echo $REPOSITORY_NAME | tr '[:upper:]' '[:lower:]')
-          
+
           sed -i "s/.*image\:.*/  image\: \"docker\:\/\/ghcr.io\/${REPOSITORY_OWNER}\/${REPOSITORY_NAME}\:edge\"/" action.yml
           cat action.yml
 
