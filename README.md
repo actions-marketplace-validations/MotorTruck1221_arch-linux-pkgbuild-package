@@ -3,7 +3,7 @@
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/hapakaien/archlinux-package-action/CI?label=CI&style=flat-square)](https://github.com/hapakaien/archlinux-package-action/actions) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/hapakaien/archlinux-package-action?style=flat-square)](https://github.com/hapakaien/archlinux-package-action/releases) [![GitHub](https://img.shields.io/github/license/hapakaien/archlinux-package-action?style=flat-square)](./LICENSE)
 
 > [!IMPORTANT]  
-> This action is a fork of [archlinux-package-action](https://github.com/heyhusen/archlinux-package-action) by [heyhusen](https://github.com/https://github.com/heyhusen) all this does is fix some problems
+> This action is a fork of [archlinux-package-action](https://github.com/heyhusen/archlinux-package-action) by [heyhusen](https://github.com/https://github.com/heyhusen) all this does is fix some problems (specifically the docker problem)
 
 This action allows running tools needed for creating Arch Linux (and AUR) package.
 Here's what this action can do:
