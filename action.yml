@@ -1,5 +1,5 @@
 # https://help.github.com/en/articles/metadata-syntax-for-github-actions
-name: "Arch Linux's package action"
+name: "Arch Linux PKGBUILD Package"
 description: "GitHub Action to run Arch Linux's package tools"
 author: 'motortruck1221'
 branding:
